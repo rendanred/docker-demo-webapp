@@ -1,4 +1,4 @@
-FROM golang:1.6.2-alpine
+FROM index.alauda.cn/library/golang:1.7
 
 RUN mkdir -p /web/static/
 
