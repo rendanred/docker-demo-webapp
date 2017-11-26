@@ -1,0 +1,8 @@
+version: "0.1.0"
+pre_ci_boot: 
+    image: index.alauda.cn/library/golang 
+    tag: 1.7
+
+ci:
+    - go build -o WebAppCi web.go
+    - cp ./WebAppCi $ALAUDACI_UPLOAD_DIR
