@@ -1,5 +1,6 @@
 FROM index.alauda.cn/library/golang:1.7
-MAINTAINER rendanred  <rendanred@foxmail.com>
+
+MAINTAINER rendanred test01 <rendanred@foxmail.com>
 
 RUN mkdir -p /web/static/
 COPY WebAppCi /WebAppCi
